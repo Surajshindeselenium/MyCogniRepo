@@ -1,0 +1,18 @@
+<suite name= "Yahoo app Test Suite">
+
+<test name = "Yahoo app Test">
+	
+	<parameter name = "browser" value = "chrome"/>
+	<parameter name = "url" value = "https://login.yahoo.com"/>
+	<parameter name = "email" value = "suraj.shinde@yahoo.com"/>
+	<classes>
+	
+	<class name = "com.testNG.parameter.ParameterTest"/>
+	
+	</classes>
+	
+	
+</test>
+
+
+</suite>

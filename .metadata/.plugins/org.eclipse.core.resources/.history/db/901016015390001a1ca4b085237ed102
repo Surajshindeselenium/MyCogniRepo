@@ -1,0 +1,24 @@
+
+public class ThrowsKeyword {
+
+	public static void main(String[] args) {
+		
+		ThrowsKeyword obj = new ThrowsKeyword();
+		obj.sample();
+		
+	}
+	
+	public void sample() {
+		div();
+	}
+	public void div()  {
+		
+		try {
+		int i=9/0;
+		}catch(ArithmeticException e){
+			
+		}
+		
+	}
+	
+}

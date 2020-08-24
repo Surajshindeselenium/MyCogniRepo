@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;JSExecutorClick&apos; to &apos;JSExecutorConcept&apos;&#x0D;&#x0A;- Original project: &apos;Selenium WD&apos;&#x0D;&#x0A;- Original element: &apos;JSExecutorClick&apos;&#x0D;&#x0A;- Renamed element: &apos;JSExecutorConcept&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;JSExecutorClick&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{JSExecutorClick.java[JSExecutorClick" matchStrategy="1" name="JSExecutorConcept" qualified="false" references="true" similarDeclarations="false" stamp="1590407950610" textual="false" version="1.0"/>
+</session>

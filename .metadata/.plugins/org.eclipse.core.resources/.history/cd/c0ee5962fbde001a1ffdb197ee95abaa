@@ -1,0 +1,15 @@
+package cucumber.Options;
+
+import io.cucumber.junit.Cucumber;
+
+
+public class TestRunner {
+	
+	//@RunWith(Cucumber.class)
+	@CucumberOptions(features="src/test/java.featureFiles",
+	glue= "stepDefinations",
+	monochrome = true, 
+	dryRun = false 
+	)
+
+}

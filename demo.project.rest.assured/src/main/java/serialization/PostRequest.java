@@ -1,0 +1,51 @@
+package serialization;
+
+import io.restassured.RestAssured;
+import pojoPractice.POJOClass;
+
+import static io.restassured.RestAssured.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PostRequest {
+
+	public static void main(String[] args) {
+		
+		RestAssured.baseURI = "http://rahulshettyacademy.com";
+		//To set values we need to create object of MapPojo class 
+		MapPojo obj = new MapPojo();
+		obj.setAccuracy(90);
+		obj.setName("Laxmi Niwas");
+		obj.setPhone_number("+91 1234567891");
+		obj.setAddress("Pune");
+		obj.setWebsite("www.myWebSite.com");
+		obj.setLanguage("Marathi");
+		//We have to create object of LocationPojo class to set values 
+		LocationPojo loc = new LocationPojo();
+		loc.setLat(-38.383494);
+		loc.setLng(33.427362);
+		//And Pass this object to setLocation()
+		obj.setLocation(loc);
+		//We have to create ArrayList object to set values for types 
+		List<String> myList = new ArrayList<String>();
+		myList.add("Row House");
+		myList.add("Bunglow");
+		//And pass this object of ArrayList to the types
+		obj.setTypes(myList);
+		
+		
+		//Add place 
+		String responce = given().log().all().queryParam("key", "qaclick123").body(obj)
+				//Here we have to pass object of MapPojo class to the body
+		.when().post("/maps/api/place/add/json")
+		.then().log().all().extract().response().asString();
+		
+		System.out.println(responce);
+		
+		
+		
+
+	}
+
+}

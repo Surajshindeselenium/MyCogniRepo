@@ -1,0 +1,4 @@
+In RestAssured context, serialization means converting Java object into Request body(Pay load).
+Setter method used to for serialization. This is used for Post request
+Deserialization: This is opposite to serialization. In this method of converting Request body(Pay load) into Java object. 
+Getter method used to for Deserialization. This is used for Get request

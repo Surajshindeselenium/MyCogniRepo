@@ -1,0 +1,13 @@
+package Rest.Assured.Framework.Rest.Assured.Framework;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

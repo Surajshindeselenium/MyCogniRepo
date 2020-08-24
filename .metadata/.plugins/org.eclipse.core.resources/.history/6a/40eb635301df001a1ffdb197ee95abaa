@@ -1,0 +1,85 @@
+package stepDefinations;
+
+import static io.restassured.RestAssured.given;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+import pojo.LocationPojo;
+import pojo.MapPojo;
+
+public class PlaceValidation {
+	
+	ResponseSpecification resSpec;
+	RequestSpecification req;
+	
+	@Given("add place payload")
+	public void add_place_payload() {
+		
+		RestAssured.baseURI = "http://rahulshettyacademy.com";
+		//To set values we need to create object of MapPojo class 
+		MapPojo obj = new MapPojo();
+		obj.setAccuracy(90);
+		obj.setName("Laxmi Niwas");
+		obj.setPhone_number("+91 1234567891");
+		obj.setAddress("Pune");
+		obj.setWebsite("www.myWebSite.com");
+		obj.setLanguage("Marathi");
+		//We have to create object of LocationPojo class to set values 
+		LocationPojo loc = new LocationPojo();
+		loc.setLat(-38.383494);
+		loc.setLng(33.427362);
+		//And Pass this object to setLocation()
+		obj.setLocation(loc);
+		//We have to create ArrayList object to set values for types 
+		List<String> myList = new ArrayList<String>();
+		myList.add("Row House");
+		myList.add("Bunglow");
+		//And pass this object of ArrayList to the types
+		obj.setTypes(myList);
+		
+		//Request/Responce spec builder is used to create generic method with commen code.
+		//so that we can use it whenever needed.
+		
+		//Creating object of RequestSpecBuilder
+		 req =new RequestSpecBuilder().setBaseUri("http://rahulshettyacademy.com").addQueryParam("key", "qaclick123")
+		.setContentType(ContentType.JSON).build();
+		
+		//Creating object of ResponceSpecBuilder
+		ResponseSpecification req = new ResponseSpecBuilder()
+		.expectStatusCode(200).expectContentType(ContentType.JSON).build();
+		
+		//Add place 
+		ResponseSpecification resSpec = given().spec(req).body(obj);
+				
+	  
+	}
+
+	@When("user calls {string} with Post http request")
+	public void user_calls_with_post_http_request(String string) {
+		
+		Response responce = res.when().post("/maps/api/place/add/json")
+				.then().spec(resSpec).extract().response();
+	    
+	}
+	@Then("the API call is success and status code {int}")
+	public void the_api_call_is_success_and_status_code(Integer int1) {
+	   
+	}
+	@Then("{string} in responce body is {string}")
+	public void in_responce_body_is(String string, String string2) {
+	    
+	}
+
+
+}

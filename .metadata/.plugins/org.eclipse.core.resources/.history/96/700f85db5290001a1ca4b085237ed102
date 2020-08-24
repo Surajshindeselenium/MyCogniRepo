@@ -1,0 +1,20 @@
+
+public class ThrowsKeyword {
+
+	public static void main(String[] args) {
+		
+		ThrowsKeyword obj = new ThrowsKeyword();
+		obj.sample();
+		
+	}
+	
+	public void sample() {
+		
+	}
+	public void div() {
+		
+		int i=9/0;
+		
+	}
+	
+}

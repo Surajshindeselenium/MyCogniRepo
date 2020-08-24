@@ -1,0 +1,5 @@
+package javaProgrammes;
+
+public abstract class AddtionClass {
+
+}

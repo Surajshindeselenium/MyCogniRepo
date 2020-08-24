@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\348333\Downloads\advanced-selenium-webdriver-master\advanced-selenium-webdriver-master\BEGINNING\advanced-selenium-webdriver"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Photon WorkSpace\com.cucumber.pom\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Rest.Assured.Framework.Rest.Assured.Framework"/>
+			<item value="TestNG.Pom.Oops.framwork.TestNG.Pom.Oops.framwork"/>
+			<item value="Automation.Utility.Project.Automation.Utility.Project"/>
+			<item value="Rest.Assured.Framwork.Rest.Assured.Framwork"/>
+			<item value="Framwork.Rest.Assured.Framwork.Rest.Assured"/>
+			<item value="bdd.Framwork.Rest.Assured"/>
+			<item value="com.roughwork.project.com.roughwork.project"/>
+			<item value="demo.project.rest.assured.demo.project.rest.assured"/>
+			<item value="RestAssuredBDDFramwork"/>
+			<item value="RestAssuredBDDFramwork.Java_Interview_Programmes"/>
+			<item value="RestAssuredBDDFramwork.CollectionsSessions"/>
+			<item value="RestAssuredBDDFramwork.RestAssuredBDDFramwork"/>
+			<item value="org.com.restapi.test.restapi"/>
+		</list>
+		<list key="groupId">
+			<item value="Rest.Assured.Framework"/>
+			<item value="TestNG.Pom.Oops.framwork"/>
+			<item value="Automation.Utility.Project"/>
+			<item value="Rest.Assured.Framwork"/>
+			<item value="Framwork.Rest.Assured"/>
+			<item value="bdd"/>
+			<item value="com.roughwork.project"/>
+			<item value="demo.project.rest.assured"/>
+			<item value="RestAssuredBDDFramwork"/>
+			<item value="org.com.restapi.test"/>
+		</list>
+		<list key="artifactId">
+			<item value="Rest.Assured.Framework"/>
+			<item value="TestNG.Pom.Oops.framwork"/>
+			<item value="Automation.Utility.Project"/>
+			<item value="Rest.Assured.Framwork"/>
+			<item value="Framwork.Rest.Assured"/>
+			<item value="com.roughwork.project"/>
+			<item value="demo.project.rest.assured"/>
+			<item value="Java-Interview-Programmes"/>
+			<item value="CollectionsSessions"/>
+			<item value="RestAssuredBDDFramwork"/>
+			<item value="restapi"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

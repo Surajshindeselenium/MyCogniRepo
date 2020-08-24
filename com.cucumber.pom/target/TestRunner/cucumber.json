@@ -1,0 +1,174 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Validate search car page",
+        "description": "",
+        "id": "acceptance-testing-to-validate-search-car-page-is-working;validate-search-car-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I am on home page \"https://www.carsguide.com.au/\" of cars guild.com",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I move to the menu",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Menu"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "buy+sell"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "reviews"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "news"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "advice"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "pricing+specs"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "labs"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "guids"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "click on \"Search Cars\" Search Cars link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "select carbrand as \"BMW\" from the Any Make dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "select model as \"1 Series M\" from the Any Model dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "select location as \"NSW-All\" from the Any location dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "select Price as \"$2,500\" from the Price(max) dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "click on Find_My_Next_Car button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I should see searched cars",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "page title should be \"Bmw 1 Series M Under 2500 for Sale NSW\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Search-Cars-Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Acceptance testing to validate search car page is working",
+    "description": "\nIn order to validate that \nsearch cars page is working \nwe will do acceptance testing",
+    "id": "acceptance-testing-to-validate-search-car-page-is-working",
+    "keyword": "Feature",
+    "uri": "SearchCars.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Search-Cars"
+      }
+    ]
+  }
+]

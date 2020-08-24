@@ -1,0 +1,17 @@
+package javaProgrammes;
+
+public class LeftTriangleStarPattern {
+	
+	
+	public static void leftTriangleStarPattern() {
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

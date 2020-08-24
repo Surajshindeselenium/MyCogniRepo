@@ -1,0 +1,21 @@
+
+public class ThrowsKeyword {
+
+	public static void main(String[] args) {
+		
+		ThrowsKeyword obj = new ThrowsKeyword();
+		obj.sample();
+		System.out.println("***");
+		
+	}
+	
+	public void sample() throws ArithmeticException {
+		div();
+	}
+	public void div()   {
+	
+		int i=9/0;
+		
+	}
+	
+}

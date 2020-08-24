@@ -1,0 +1,17 @@
+
+public class ThrowKeyword {
+
+	public static void main(String[] args) {
+		
+		//Difference between Throw and Throws Keyword
+		//Throw keyword used to throw an exception deliberately whereas Throws keyword used to catch handle exception
+		
+		System.out.println("Suraj");
+		
+		throw 
+		
+		System.out.println("Shinde");
+		
+	}
+
+}
