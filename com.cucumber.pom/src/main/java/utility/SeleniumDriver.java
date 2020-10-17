@@ -19,7 +19,7 @@ public class SeleniumDriver {
 	
 	private SeleniumDriver(){
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Photon WorkSpace\\com.cucumber.pom\\ChromeDriver\\chromedriver.exe" );
+		System.setProperty("webdriver.chrome.driver","C:\\My Repository\\MyCogniRepo\\com.cucumber.pom\\src\\main\\resources\\ChromeDriver\\chromedriver.exe" );
 		driver= new ChromeDriver(); 
 		driver.manage().window().maximize();
 		

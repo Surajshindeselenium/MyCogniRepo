@@ -18,7 +18,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		plugin = { "json:target/positive/cucumber.json", "pretty", "html:target/positive/cucumber.html",
 				"com.cucumber.listener.ExtentCucumberFormatter",
 				"rerun:target/rerun.txt" }, 
-		features = "C:\\Photon WorkSpace\\com.cucumber.pom\\src\\test\\resources\\featureFiles", 
+		features = "C:\\My Repository\\MyCogniRepo\\com.cucumber.pom\\src\\test\\resources\\featureFiles", 
 		glue = "stepDefinations", 
 		monochrome = true, 
 		dryRun = false, 
